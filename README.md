@@ -19,6 +19,6 @@ Infimind project to construct a foundation for a database of a magnitude of mill
 ## The package using in the project
 json,requests,bs4,multiprocessing,csv,base64,PIL(pillow)
 
-The data format：
-image dataset format(tsv):1000002	/9j/4AAQSkZJ...YQj7314oA//2Q== （商品图片id，'\t'，商品图片内容) (base64编码）
-text/query dataset format(jsonl):{"query_id": 8426, "query_text": "胖妹妹松紧腰长裤", "item_ids": [42967]}
+## The data format：
+- image dataset format(tsv):1000002	/9j/4AAQSkZJ...YQj7314oA//2Q== （商品图片id，'\t'，商品图片内容) (base64编码）
+- text/query dataset format(jsonl):{"query_id": 8426, "query_text": "胖妹妹松紧腰长裤", "item_ids": [42967]}
