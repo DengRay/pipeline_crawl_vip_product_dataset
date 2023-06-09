@@ -23,7 +23,7 @@ json,requests,bs4,multiprocessing,csv,base64,PIL(pillow)
 - image dataset format(tsv):1000002	/9j/4AAQSkZJ...YQj7314oA//2Q== （商品图片id，'\t'，商品图片内容) (base64编码）
 - text/query dataset format(jsonl):{"query_id": 8426, "query_text": "胖妹妹松紧腰长裤", "item_ids": [42967]}
 
-##updata(2023.6.9):
+## updata(2023.6.9):
 - crawl the picture and video on vip product homepage with proxies
 - run crawl_shoe.py,get_content_shoe.py,parallel_dl_three_shoe.py
 - add the vip categories id (json file)
